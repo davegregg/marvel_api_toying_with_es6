@@ -1,0 +1,43 @@
+.page-header {
+  color: white;
+  border: none;
+}
+
+body {
+  background-color: black;
+  background-image: url('../image/bg.gif');
+  background-repeat: repeat-y;
+}
+
+#characters {
+  margin-top: 40px;
+  padding-left: 3vw;
+  color: white;
+}
+
+.thumbnail {
+  width: 30%;
+  height: 30%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0.5vw;
+}
+
+.thumbnail:hover { text-decoration: none; }
+
+.thumbnail figcaption {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+}
+
+.thumbnail figcaption div {
+  font-weight: normal;
+  font-size: 0.75em;
+}
+
+footer {
+  margin-top: 6em;
+}
